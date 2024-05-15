@@ -1,0 +1,9 @@
+﻿<Application x:Class="Fabio_Leo_Kühlschrankplaner.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Fabio_Leo_Kühlschrankplaner"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
