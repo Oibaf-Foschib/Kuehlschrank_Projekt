@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Fabio_Leo_Kühlschrankplaner
+namespace Fabio_Leo_Kuehlschrankplaner
 {
     public class RefrigeratorManager
     {

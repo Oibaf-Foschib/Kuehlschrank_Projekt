@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace Fabio_Leo_Kühlschrankplaner
+namespace Fabio_Leo_Kuehlschrankplaner
 {
     /// <summary>
     /// Interaction logic for App.xaml

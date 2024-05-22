@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Windows;
 
-namespace Fabio_Leo_Kühlschrankplaner
+namespace Fabio_Leo_Kuehlschrankplaner
 {
-    public partial class Window1 : Window
+    public partial class WindowHinzufuegen : Window
     {
         private RefrigeratorManager refrigeratorManager;
         private MainWindow mainWindow; 
 
         
-        public Window1(RefrigeratorManager manager, MainWindow main)
+        public WindowHinzufuegen(RefrigeratorManager manager, MainWindow main)
         {
             InitializeComponent();
             refrigeratorManager = manager;
@@ -18,9 +18,9 @@ namespace Fabio_Leo_Kühlschrankplaner
 
         private void btnOk_Click(object sender, RoutedEventArgs e)
         {
-            string name = Name.Text;
-            string quantity = Menge.Text;
-            DateTime mhd = DateTime.Parse(MHD.Text);
+            string name = txtboxName.Text;
+            string quantity = txtboxMenge.Text;
+            DateTime mhd = DateTime.Parse(txtboxMHD.Text);
 
             refrigeratorManager.AddItem(name, quantity, mhd);
 

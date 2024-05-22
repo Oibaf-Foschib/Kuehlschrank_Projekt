@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Fabio_Leo_Kühlschrankplaner
+namespace Fabio_Leo_Kuehlschrankplaner
 {
     /// <summary>
     /// Interaction logic for Window2.xaml

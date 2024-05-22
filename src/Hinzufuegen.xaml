@@ -1,11 +1,11 @@
-﻿<Window x:Class="Fabio_Leo_Kühlschrankplaner.Window1"
+﻿<Window x:Class="Fabio_Leo_Kuehlschrankplaner.WindowHinzufuegen"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Fabio_Leo_Kühlschrankplaner"
+        xmlns:local="clr-namespace:Fabio_Leo_Kuehlschrankplaner"
         mc:Ignorable="d"
-        Title="Window1" Height="180" Width="300">
+        Title="Hinzufügen" Height="180" Width="300">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -30,13 +30,13 @@
         <TextBlock x:Name="txtMHD" Grid.Row="3" Grid.Column="0"
                    HorizontalAlignment="Left" Margin="29,0,10,0" TextWrapping="Wrap" 
                    Text="MHD:" VerticalAlignment="Center"/>
-        <TextBox x:Name="Name" Grid.Row="1" Grid.Column="1"
+        <TextBox x:Name="txtboxName" Grid.Row="1" Grid.Column="1"
                  HorizontalAlignment="Stretch" Height="24" Margin="0,0,29,0" TextWrapping="Wrap" 
                  VerticalAlignment="Center" Width="120"/>
-        <TextBox x:Name="Menge" Grid.Row="2" Grid.Column="1"
+        <TextBox x:Name="txtboxMenge" Grid.Row="2" Grid.Column="1"
                  HorizontalAlignment="Stretch" Height="23" TextWrapping="Wrap" 
                  VerticalAlignment="Center" Width="120" Margin="0,0,29,0"/>
-        <TextBox x:Name="MHD" Grid.Row="3" Grid.Column="1"
+        <TextBox x:Name="txtboxMHD" Grid.Row="3" Grid.Column="1"
                  HorizontalAlignment="Stretch" Height="23" Margin="0,0,29,0" TextWrapping="Wrap" 
                  VerticalAlignment="Center" Width="120"/>
         <Button x:Name="btnOk" Grid.Row="4" Grid.ColumnSpan="2"

@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 
-namespace Fabio_Leo_Kühlschrankplaner
+namespace Fabio_Leo_Kuehlschrankplaner
 {
     public partial class MainWindow : Window
     {
@@ -22,7 +22,7 @@ namespace Fabio_Leo_Kühlschrankplaner
 
         private void btnHinzufügen_Click(object sender, RoutedEventArgs e)
         {
-            Window1 addItemWindow = new Window1(refrigeratorManager, this);
+            WindowHinzufuegen addItemWindow = new WindowHinzufuegen(refrigeratorManager, this);
             addItemWindow.ShowDialog();
         }
 
