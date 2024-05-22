@@ -1,8 +1,7 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace Fabio_Leo_Kühlschrankplaner
 {
@@ -20,14 +19,29 @@ namespace Fabio_Leo_Kühlschrankplaner
             items.Remove(item);
         }
 
-        
-
         public List<RefrigeratorItem> GetItems()
         {
             return items;
         }
 
-      
+        public void SaveToFile(string filePath)
+        {
+            string json = JsonConvert.SerializeObject(items, Formatting.Indented);
+            File.WriteAllText(filePath, json);
+        }
+
+        public void LoadFromFile(string filePath)
+        {
+            if (File.Exists(filePath))
+            {
+                string json = File.ReadAllText(filePath);
+                items = JsonConvert.DeserializeObject<List<RefrigeratorItem>>(json);
+            }
+            else
+            {
+                items = new List<RefrigeratorItem>();
+            }
+        }
     }
 
     public class RefrigeratorItem
@@ -44,3 +58,5 @@ namespace Fabio_Leo_Kühlschrankplaner
         }
     }
 }
+
+

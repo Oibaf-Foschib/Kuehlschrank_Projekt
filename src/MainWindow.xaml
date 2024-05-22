@@ -26,3 +26,4 @@
         <ListBox x:Name="lbKühlschrank" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"/>
     </Grid>
 </Window>
+
