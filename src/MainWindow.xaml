@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Fabio_Leo_Kuehlschrankplaner"
         mc:Ignorable="d"
-        Title="Hinzufügen" Height="465" Width="400">
+        Title="Hinzufügen" Height="485" Width="400">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
@@ -16,12 +16,12 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Column="0" Grid.Row="0" VerticalAlignment="Top">
-            <Button x:Name="btnHinzufügen" Content="Hinzufügen" Margin="10" Width="100" Height="55" Click="btnHinzufügen_Click"/>
-            <Button x:Name="btnEntfernen" Content="Entfernen" Margin="10" Width="100" Height="55" Click="btnEntfernen_Click"/>
-            <Button x:Name="btnLoad" Content="Load" Margin="10" Width="100" Height="54" Click="btnLoad_Click"/>
-            <Button x:Name="btnSave" Content="Save" Margin="10" Width="100" Height="55" Click="btnSave_Click"/>
-            <Button x:Name="btnFixieren" Content="Fixieren" Margin="10" Width="100" Height="55" Click="btnFixieren_Click"/>
-            <Button x:Name="btnRezepte" Content="Rezepte" Margin="10" Width="100" Height="55" Click="btnRezepte_Click"/>
+            <Button x:Name="btnHinzufügen" Content="Hinzufügen" Margin="10" Width="100" Height="55" Foreground="Black" Background="SeaGreen" Click="btnHinzufügen_Click"/>
+            <Button x:Name="btnEntfernen" Content="Entfernen" Margin="10" Width="100" Height="55" Foreground="Black" Background="SeaGreen" Click="btnEntfernen_Click"/>
+            <Button x:Name="btnLoad" Content="Load" Margin="10" Width="100" Height="54" Foreground="Black" Background="SeaGreen" Click="btnLoad_Click"/>
+            <Button x:Name="btnSave" Content="Save" Margin="10" Width="100" Height="55" Foreground="Black" Background="SeaGreen" Click="btnSave_Click"/>
+            <Button x:Name="btnFixieren" Content="Fixieren" Margin="10" Width="100" Height="55" Foreground="Black" Background="SeaGreen" Click="btnFixieren_Click"/>
+            <Button x:Name="btnRezepte" Content="Rezepte" Margin="10" Width="100" Height="55" Foreground="Black" Background="SeaGreen" Click="btnRezepte_Click"/>
         </StackPanel>
         <ListBox x:Name="lbKühlschrank" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10"/>
     </Grid>

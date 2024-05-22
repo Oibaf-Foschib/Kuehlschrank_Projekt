@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Fabio_Leo_Kuehlschrankplaner"
         mc:Ignorable="d"
-        Title="Rezeptsuche" Height="250" Width="400">
+        Title="Rezeptsuche" Height="270" Width="400">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
