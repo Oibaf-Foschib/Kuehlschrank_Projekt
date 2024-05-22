@@ -35,3 +35,10 @@ Probleme:
 Fabio stößt auf ein Problem beim Hinzufügen, welches aber durch das ändern eines Funktionsnamens gelöst werden kann.
 Nach Leos Änderung an der Rezptsuche startet das Programm kurze zeit nicht.
 
+### 22.05. Tag 3 in Zusammenarbeit
+
+Ein sehr Produktiever Tag
+
+Fabio Codet die Buttons Load und Save, die den Kühlschrank in einer JSON Datei speichern.
+Leo Codet die Buttons Rezeptsuche und Fixieren.
+Das Program ist nun fast fertig.

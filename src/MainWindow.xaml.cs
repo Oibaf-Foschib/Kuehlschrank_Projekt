@@ -7,7 +7,7 @@ namespace Fabio_Leo_Kühlschrankplaner
     public partial class MainWindow : Window
     {
         private RefrigeratorManager refrigeratorManager = new RefrigeratorManager();
-        private const string FilePath = "refrigeratorItems.json"; // Dateipfad für die Speicherung
+        private const string FilePath = "refrigeratorItems.json";
 
         public MainWindow()
         {
@@ -39,7 +39,7 @@ namespace Fabio_Leo_Kühlschrankplaner
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
             refrigeratorManager.SaveToFile(FilePath);
-            MessageBox.Show("Daten wurden gespeichert.");
+            MessageBox.Show("Dein Kühlschrank wurde gespeichert.");
         }
 
         private void btnLoad_Click(object sender, RoutedEventArgs e)
@@ -59,7 +59,7 @@ namespace Fabio_Leo_Kühlschrankplaner
 
         private void btnFixieren_Click(object sender, RoutedEventArgs e)
         {
-            // Deine Implementierung für Fixieren
+            
         }
 
         private void btnRezepte_Click(object sender, RoutedEventArgs e)
